@@ -1,0 +1,109 @@
+/**
+ * Lingua Visual — Switcher Studio (frontend).
+ * Los colores/medidas salen de variables CSS que genera el admin.
+ */
+
+/* ===== Base ===== */
+.lgv-sw button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.lgv-sw img{display:block}
+.lgv-sw a{text-decoration:none;color:inherit}
+.lgv-sw :focus-visible{outline:2px solid #2563eb;outline-offset:2px;border-radius:4px}
+
+.lgv-sw-flag{display:inline-flex;align-items:center;flex:0 0 auto}
+.lgv-sw-flag img{width:var(--lgv-flag);height:auto;border-radius:2px;box-shadow:0 0 0 1px rgba(15,23,42,.12)}
+.lgv-flag-rounded .lgv-sw-flag img{border-radius:4px}
+.lgv-flag-circle .lgv-sw-flag img{border-radius:50%;width:var(--lgv-flag);height:var(--lgv-flag);object-fit:cover;aspect-ratio:1/1}
+.lgv-sw-flag-emoji{font-size:calc(var(--lgv-flag)*1.05);line-height:1}
+.lgv-sw-flag-custom svg{width:var(--lgv-flag);height:auto;display:block}
+.lgv-flag-circle .lgv-sw-flag-custom svg{width:var(--lgv-flag);height:var(--lgv-flag)}
+.lgv-sw-label{white-space:nowrap}
+.lgv-sw-globe{width:1.15em;height:1.15em;flex:0 0 auto}
+
+/* ===== Toggle del dropdown ===== */
+.lgv-sw-toggle{display:inline-flex;align-items:center;gap:.5em;background:var(--lgv-bg);color:var(--lgv-text);
+  border:var(--lgv-bw) solid var(--lgv-border);border-radius:var(--lgv-radius);
+  padding:var(--lgv-padv) var(--lgv-padh);box-shadow:var(--lgv-shadow)}
+.lgv-sw-toggle:hover{background:var(--lgv-bg-hover);color:var(--lgv-text-hover)}
+.lgv-sw-toggle-inner{display:inline-flex;align-items:center;gap:.5em}
+.lgv-sw-chevron{width:1em;height:1em;transition:transform .18s ease}
+.lgv-sw[data-open="1"] .lgv-sw-chevron{transform:rotate(180deg)}
+
+/* ===== Menú dropdown ===== */
+.lgv-sw-menu{position:absolute;z-index:9999;min-width:100%;margin-top:6px;background:var(--lgv-bg);color:var(--lgv-text);
+  border:var(--lgv-bw) solid var(--lgv-border);border-radius:var(--lgv-radius);box-shadow:var(--lgv-shadow);overflow:hidden}
+.lgv-open-up .lgv-sw-menu{bottom:calc(100% + 6px);top:auto;margin-top:0;margin-bottom:0}
+.lgv-sw-menu[hidden]{display:none}
+.lgv-anim-fade .lgv-sw-menu{transition:opacity .16s ease}
+.lgv-anim-slide .lgv-sw-menu{transition:opacity .16s ease,transform .16s ease}
+.lgv-open-down.lgv-anim-slide .lgv-sw-menu{transform:translateY(-4px)}
+.lgv-open-up.lgv-anim-slide .lgv-sw-menu{transform:translateY(4px)}
+.lgv-sw-menu-items{max-height:320px;overflow:auto;padding:4px}
+.lgv-sw-item{display:flex;align-items:center;gap:.55em;padding:var(--lgv-padv) var(--lgv-padh);border-radius:calc(var(--lgv-radius) - 4px);color:var(--lgv-text)}
+.lgv-sw-item:hover{background:var(--lgv-bg-hover);color:var(--lgv-text-hover)}
+.lgv-sw-item.is-current{font-weight:700}
+.lgv-sw-item.is-text{cursor:default}
+.lgv-sw-item.is-text:hover{background:none;color:var(--lgv-text)}
+.lgv-sw-item.lgv-hidden{display:none}
+
+/* ===== Buscador ===== */
+.lgv-sw-search{padding:8px;border-bottom:1px solid var(--lgv-border)}
+.lgv-sw-search input{width:100%;box-sizing:border-box;padding:7px 10px;font:inherit;font-size:.92em;
+  border:1px solid var(--lgv-border);border-radius:6px;background:#fff;color:#111}
+
+/* ===== Lista inline ===== */
+.lgv-sw-inline .lgv-sw-list,.lgv-sw-flags .lgv-sw-list,.lgv-sw-text .lgv-sw-list,.lgv-sw-flag_text .lgv-sw-list{
+  display:flex;align-items:center;gap:1em;flex-wrap:wrap}
+.lgv-sw-inline .lgv-sw-item,.lgv-sw-flags .lgv-sw-item,.lgv-sw-text .lgv-sw-item,.lgv-sw-flag_text .lgv-sw-item{
+  padding:2px;border-radius:6px}
+.lgv-sw-inline .lgv-sw-item:hover,.lgv-sw-flags .lgv-sw-item:hover,.lgv-sw-text .lgv-sw-item:hover,.lgv-sw-flag_text .lgv-sw-item:hover{
+  background:var(--lgv-bg-hover);color:var(--lgv-text-hover)}
+.lgv-sw-flags .lgv-sw-item,.lgv-sw-flags .lgv-sw-toggle{padding:2px}
+
+/* ===== Botón idioma opuesto ===== */
+.lgv-sw-opposite{display:inline-flex;align-items:center;gap:.5em;background:var(--lgv-bg);color:var(--lgv-text);
+  border:var(--lgv-bw) solid var(--lgv-border);border-radius:var(--lgv-radius);
+  padding:var(--lgv-padv) var(--lgv-padh);box-shadow:var(--lgv-shadow)}
+.lgv-sw-opposite:hover{background:var(--lgv-bg-hover);color:var(--lgv-text-hover)}
+
+/* ===== Píldora + modal ===== */
+.lgv-sw-pillbtn{display:inline-flex;align-items:center;gap:.55em;background:var(--lgv-bg);color:var(--lgv-text);
+  border:var(--lgv-bw) solid var(--lgv-border);border-radius:999px;
+  padding:var(--lgv-padv) calc(var(--lgv-padh) + 4px);box-shadow:var(--lgv-shadow)}
+.lgv-sw-pillbtn:hover{background:var(--lgv-bg-hover);color:var(--lgv-text-hover)}
+.lgv-sw-overlay{position:fixed;inset:0;z-index:99999;background:rgba(15,23,42,.55);
+  display:flex;align-items:center;justify-content:center;padding:20px}
+.lgv-sw-overlay[hidden]{display:none}
+.lgv-sw-modal{background:#fff;color:#1f2937;border-radius:16px;width:100%;max-width:420px;max-height:82vh;
+  display:flex;flex-direction:column;box-shadow:0 24px 64px rgba(15,23,42,.35);overflow:hidden}
+.lgv-anim-fade .lgv-sw-modal{animation:lgvFade .18s ease}
+.lgv-anim-slide .lgv-sw-modal{animation:lgvUp .2s ease}
+@keyframes lgvFade{from{opacity:0}to{opacity:1}}
+@keyframes lgvUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.lgv-sw-modal-head{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid #e5e7eb}
+.lgv-sw-modal-head strong{font-size:1.05em}
+.lgv-sw-close{font-size:1.6em;line-height:1;color:#6b7280;padding:2px 8px;border-radius:8px}
+.lgv-sw-close:hover{background:#f3f4f6;color:#111}
+.lgv-sw-modal-list{overflow:auto;padding:8px}
+.lgv-sw-modal .lgv-sw-item{border-radius:10px}
+.lgv-sw-modal .lgv-sw-item:hover{background:#f1f5f9}
+
+/* ===== Flotante ===== */
+.lgv-sw-float{position:fixed;z-index:99990}
+.lgv-float-top-left{top:16px;left:16px}
+.lgv-float-top-right{top:16px;right:16px}
+.lgv-float-bottom-left{bottom:16px;left:16px}
+.lgv-float-bottom-right{bottom:16px;right:16px}
+.lgv-float-top-left .lgv-sw-menu,.lgv-float-top-right .lgv-sw-menu{top:calc(100% + 6px)}
+.lgv-float-bottom-left .lgv-sw-menu,.lgv-float-bottom-right .lgv-sw-menu{bottom:calc(100% + 6px);top:auto}
+
+/* ===== Ítem de menú ===== */
+li.lgv-sw-menu-item{display:flex;align-items:center}
+li.lgv-sw-menu-item .lgv-sw{font-size:.92em}
+
+/* ===== Preview en admin ===== */
+.lgv-preview-stage{background:#f8fafc;border:1px dashed #cbd5e1;border-radius:12px;padding:32px;display:flex;justify-content:center;transition:max-width .2s}
+
+/* ===== Tooltip del nombre del idioma ===== */
+.lgv-tip{position:absolute;z-index:1000000;background:#111827;color:#fff;font-size:12px;font-weight:500;
+  line-height:1.5;padding:4px 10px;border-radius:8px;white-space:nowrap;pointer-events:none;
+  box-shadow:0 4px 12px rgba(0,0,0,.22);font-family:inherit}

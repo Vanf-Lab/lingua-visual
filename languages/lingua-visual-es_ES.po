@@ -1,0 +1,1223 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lingua Visual 0.6.0\n"
+"POT-Creation-Date: 2026-10-10\n"
+"PO-Revision-Date: 2026-10-10\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Lingua Visual"
+msgstr "Lingua Visual"
+
+msgid "https://vanflab.com/plugins/lingua-visual"
+msgstr ""
+
+msgid "Visual multilingual translation with UNLIMITED languages, free. Click any frontend text and translate it on the spot. Own manual dictionary, no paid APIs. Per-language URLs (/en/page/) that persist while browsing and play nice with caching. Automatic language detection via IP geolocation + browser language. Frontend string discovery + automatic translation (free MyMemory, DeepL)."
+msgstr "Traducción visual multilingüe con idiomas ILIMITADOS gratis. Clickeá cualquier texto del frontend y traducilo en el acto. Diccionario manual propio, sin APIs pagas. URLs por idioma (/en/pagina/) que persisten al navegar y juegan a favor del caché. Detección automática del idioma por geolocalización IP + idioma del navegador. Descubridor de cadenas del frontend + traducción automática (MyMemory gratis, DeepL)."
+
+msgid "Vanf Lab"
+msgstr ""
+
+msgid "https://vanflab.com"
+msgstr ""
+
+msgid "Starting crawl…"
+msgstr "Iniciando rastreo…"
+
+msgid "%1$d/%2$d pages · %3$d strings found · %4$d new"
+msgstr "%1$d/%2$d páginas · %3$d cadenas encontradas · %4$d nuevas"
+
+msgid "Errors"
+msgstr "Errores"
+
+msgid "Crawl finished. New strings are already in the Strings tab."
+msgstr "Rastreo terminado. Las cadenas nuevas ya están en la pestaña Cadenas."
+
+msgid "An error occurred. Try again."
+msgstr "Ocurrió un error. Reintentá."
+
+msgid "Automatically translate all pending strings? They'll be marked as automatic for you to review."
+msgstr "¿Traducir automáticamente todas las cadenas pendientes? Quedarán marcadas como automáticas para que las revises."
+
+msgid "Translating…"
+msgstr "Traduciendo…"
+
+msgid "%1$d translated · %2$d characters · %3$d pending"
+msgstr "%1$d traducidas · %2$d caracteres · %3$d pendientes"
+
+msgid "Provider quota exhausted. Pending items wait for the next period."
+msgstr "Cuota del proveedor agotada. Lo pendiente queda para el próximo período."
+
+msgid "Done. Review the automatic translations in the Strings tab (\"Only automatic\" filter)."
+msgstr "Listo. Revisá las traducciones automáticas en la pestaña Cadenas (filtro \"Solo automáticas\")."
+
+msgid "Language added."
+msgstr "Idioma agregado."
+
+msgid "Language removed."
+msgstr "Idioma quitado."
+
+msgid "Default language updated."
+msgstr "Idioma default actualizado."
+
+msgid "String saved."
+msgstr "Cadena guardada."
+
+msgid "Could not save: check the data."
+msgstr "No se pudo guardar: revisá los datos."
+
+msgid "Translation saved."
+msgstr "Traducción guardada."
+
+msgid "Could not save."
+msgstr "No se pudo guardar."
+
+msgid "String deleted."
+msgstr "Cadena borrada."
+
+msgid "Could not delete."
+msgstr "No se pudo borrar."
+
+msgid "URL settings saved."
+msgstr "Ajustes de URL guardados."
+
+msgid "Detection settings saved."
+msgstr "Ajustes de detección guardados."
+
+msgid "Switcher settings saved."
+msgstr "Ajustes del switcher guardados."
+
+msgid "Automatic translation settings saved."
+msgstr "Ajustes de traducción automática guardados."
+
+msgid "Marked as reviewed: it's now a manual translation."
+msgstr "Marcada como revisada: ya es una traducción manual."
+
+msgid "Could not mark."
+msgstr "No se pudo marcar."
+
+msgid "An error occurred."
+msgstr "Ocurrió un error."
+
+msgid "You don't have permission to view this page."
+msgstr "No tenés permiso para ver esta página."
+
+msgid "Languages"
+msgstr "Idiomas"
+
+msgid "Switcher"
+msgstr "Switcher"
+
+msgid "URLs"
+msgstr "URLs"
+
+msgid "Detection"
+msgstr "Detección"
+
+msgid "Discover"
+msgstr "Descubrir"
+
+msgid "Automatic"
+msgstr "Automática"
+
+msgid "Strings"
+msgstr "Cadenas"
+
+msgid "Media"
+msgstr "Medios"
+
+msgid "Import / Export"
+msgstr "Importar / Exportar"
+
+msgid "Visual translation with unlimited languages. Enable visual mode from the admin bar on the frontend (\"Translate this page\") and click any text to translate it."
+msgstr "Traducción visual con idiomas ilimitados. Activá el modo visual desde la admin bar en el frontend (\"Traducir esta página\") y clickeá cualquier texto para traducirlo."
+
+msgid "No language limit. The default language shows without a prefix in the URL (e.g. /my-page/); the others use their prefix (e.g. /en/my-page/)."
+msgstr "Sin límite de idiomas. El idioma default se muestra sin prefijo en la URL (ej.: /mi-pagina/); los demás usan su prefijo (ej.: /en/mi-pagina/)."
+
+msgid "Code"
+msgstr "Código"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Actions"
+msgstr "Acciones"
+
+msgid "Make default"
+msgstr "Hacer default"
+
+msgid "Remove this language and its translations?"
+msgstr "¿Quitar este idioma y sus traducciones?"
+
+msgid "Remove"
+msgstr "Quitar"
+
+msgid "Add language"
+msgstr "Agregar idioma"
+
+msgid "Lowercase, e.g.: en, pt, fr."
+msgstr "Minúsculas, ej.: en, pt, fr."
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Flag (emoji)"
+msgstr "Bandera (emoji)"
+
+msgid "Language switcher"
+msgstr "Switcher de idioma"
+
+msgid "Shortcode:"
+msgstr "Shortcode:"
+
+msgid "With attributes:"
+msgstr "Con atributos:"
+
+msgid "Attributes: mode (dropdown, inline, flags, text, flag_text, opposite, pill_modal), trigger (click, hover), flag_position (before, after, hidden), flag_shape (rect, rounded, circle), name_format (native, iso, none), class. Everything is customized in the Switcher tab."
+msgstr "Atributos: mode (dropdown, inline, flags, text, flag_text, opposite, pill_modal), trigger (click, hover), flag_position (before, after, hidden), flag_shape (rect, rounded, circle), name_format (native, iso, none), class. Todo se personaliza en la pestaña Switcher."
+
+msgid "Or add the \"Language Switcher (Lingua Visual)\" widget in Appearance → Widgets."
+msgstr "O agregá el widget \"Selector de idioma (Lingua Visual)\" en Apariencia → Widgets."
+
+msgid "URLs per language"
+msgstr "URLs por idioma"
+
+msgid "With prefixes enabled, each language lives at its own URL (e.g. /en/my-page/). The default language has no prefix. Since each language is a different URL, page caches (WP Rocket and similar) store one translated version per language and the translation persists while browsing."
+msgstr "Con los prefijos activos, cada idioma vive en su propia URL (ej.: /en/mi-pagina/). El idioma default no lleva prefijo. Como cada idioma es una URL distinta, los cachés de página (WP Rocket y similares) guardan una versión traducida por idioma y la traducción persiste al navegar."
+
+msgid "Language prefixes"
+msgstr "Prefijos de idioma"
+
+msgid "Enable language-prefixed URLs"
+msgstr "Activar URLs con prefijo de idioma"
+
+msgid "Example: %s"
+msgstr "Ejemplo: %s"
+
+msgid "No custom rewrite rules are added: the prefix is detected before WordPress parsing and works with any permalink structure."
+msgstr "No se agregan reglas de rewrite propias: el prefijo se detecta antes del parseo de WordPress y funciona con cualquier estructura de enlaces permanentes."
+
+msgid "Automatic redirection"
+msgstr "Redirección automática"
+
+msgid "Redirect ?lang= and the cookie to the prefixed URL (302)"
+msgstr "Redirigir ?lang= y la cookie a la URL con prefijo (302)"
+
+msgid "This way the language always ends up in the URL. If you disable it, ?lang= and the cookie keep working with output buffering (0.1.0 behavior)."
+msgstr "Así el idioma siempre termina en la URL. Si lo desactivás, ?lang= y la cookie siguen funcionando con el output buffering (comportamiento 0.1.0)."
+
+msgid "Save URL settings"
+msgstr "Guardar ajustes de URL"
+
+msgid "Notes"
+msgstr "Notas"
+
+msgid "The default language never gets a prefix; if someone visits /es/my-page/ while \"es\" is the default, it redirects (301) to /my-page/."
+msgstr "El idioma default nunca lleva prefijo; si alguien visita /es/mi-pagina/ siendo \"es\" el default, se redirige (301) a /mi-pagina/."
+
+msgid "System routes (wp-admin, wp-login.php, wp-json, wp-content, etc.) never get a prefix."
+msgstr "Las rutas del sistema (wp-admin, wp-login.php, wp-json, wp-content, etc.) nunca llevan prefijo."
+
+msgid "Avoid using a registered language code as a page slug (e.g. don't create a page called \"en\")."
+msgstr "Evitá usar como slug de página un código de idioma registrado (ej.: no crees una página llamada \"en\")."
+
+msgid "The <head> prints the hreflang of each language plus x-default, and the canonical follows the active language."
+msgstr "En el <head> se imprimen los hreflang de cada idioma más x-default, y la canónica acompaña al idioma activo."
+
+msgid "Automatic language detection"
+msgstr "Detección automática del idioma"
+
+msgid "On the first visit, the plugin can guess the visitor's language and redirect them (302) to the matching prefixed URL. The user's explicit choice (prefixed URL, ?lang= or cookie) always wins and is never redirected. Detection runs once per visitor (30-day lgv_detected cookie)."
+msgstr "En la primera visita, el plugin puede adivinar el idioma del visitante y redirigirlo (302) a la URL con prefijo correspondiente. La elección explícita del usuario (URL con prefijo, ?lang= o cookie) siempre gana y nunca se redirige. Solo se detecta una vez por visitante (cookie lgv_detected de 30 días)."
+
+msgid "Automatic detection"
+msgstr "Detección automática"
+
+msgid "Enable automatic detection and redirection"
+msgstr "Activar la detección y redirección automática"
+
+msgid "Method"
+msgstr "Método"
+
+msgid "Browser + IP (recommended)"
+msgstr "Navegador + IP (recomendado)"
+
+msgid "First the browser language; if it doesn't match an active language, the IP country is used."
+msgstr "Primero el idioma del navegador; si no coincide con un idioma activo, se usa el país de la IP."
+
+msgid "Browser language only (Accept-Language header)"
+msgstr "Solo idioma del navegador (header Accept-Language)"
+
+msgid "IP geolocation only"
+msgstr "Solo geolocalización por IP"
+
+msgid "Country-by-IP provider"
+msgstr "Proveedor de país por IP"
+
+msgid "Query order: 1) Cloudflare header (free, no external calls), 2) local map below, 3) external API (only if you enable it)."
+msgstr "Orden de consulta: 1) header de Cloudflare (gratis, sin llamadas externas), 2) mapa local de abajo, 3) API externa (solo si la habilitás)."
+
+msgid "On your current visit Cloudflare reports country: %s."
+msgstr "En tu visita actual Cloudflare informa país: %s."
+
+msgid "On your current visit there is no Cloudflare header (your site doesn't go through their proxy or doesn't send the country)."
+msgstr "En tu visita actual no hay header de Cloudflare (tu sitio no pasa por su proxy o no envía el país)."
+
+msgid "Local map (optional)"
+msgstr "Mapa local (opcional)"
+
+msgid "One rule per line: CIDR=COUNTRY or IP=COUNTRY (e.g. 203.0.113.0/24=AR). Useful for tests or known ranges. No external calls."
+msgstr "Una regla por línea: CIDR=PAIS o IP=PAIS (ej.: 203.0.113.0/24=AR). Útil para pruebas o rangos conocidos. Sin llamadas externas."
+
+msgid "Enable querying an external GeoIP API"
+msgstr "Habilitar consulta a API externa de GeoIP"
+
+msgid "Privacy: only enable it if you agree to send the visitor's IP to a third party. The result is cached per IP (transient) to avoid hammering the API."
+msgstr "Privacidad: solo activalo si estás de acuerdo en enviar la IP del visitante a un tercero. El resultado se cachea por IP (transient) para no saturar la API."
+
+msgid "The ip-api.com free plan allows 45 queries per minute."
+msgstr "El plan gratuito de ip-api.com permite 45 consultas por minuto."
+
+msgid "API URL. Use {ip} as placeholder. It must return JSON with countryCode, country_code or country (2 letters)."
+msgstr "URL de la API. Usá {ip} como placeholder. Debe devolver JSON con countryCode, country_code o country (2 letras)."
+
+msgid "Days of cache per IP:"
+msgstr "Días de caché por IP:"
+
+msgid "Fallback language"
+msgstr "Idioma de respaldo"
+
+msgid "Site default language (%s)"
+msgstr "Idioma default del sitio (%s)"
+
+msgid "Used when detection finds no match with your active languages (e.g. a visitor from France and you only have Spanish and English)."
+msgstr "Se usa cuando la detección no encuentra ninguna coincidencia con tus idiomas activos (ej.: visitante de Francia y solo tenés español e inglés)."
+
+msgid "Rules"
+msgstr "Reglas"
+
+msgid "Never redirect bots/crawlers (Googlebot, Bingbot, etc.)"
+msgstr "Nunca redirigir bots/crawlers (Googlebot, Bingbot, etc.)"
+
+msgid "Critical for SEO: search engines must see every language version."
+msgstr "Crítico para SEO: los buscadores deben ver todas las versiones de idioma."
+
+msgid "Scope:"
+msgstr "Alcance:"
+
+msgid "All pages"
+msgstr "Todas las páginas"
+
+msgid "Homepage only"
+msgstr "Solo la portada"
+
+msgid "Show a \"We switched you to X\" notice after redirecting, with a link to go back"
+msgstr "Mostrar aviso \"Te cambiamos a X\" tras redirigir, con link para volver"
+
+msgid "Save detection settings"
+msgstr "Guardar ajustes de detección"
+
+msgid "Test simulator"
+msgstr "Simulador de prueba"
+
+msgid "Pick a country and an Accept-Language header to see which language would result with your current configuration, without redirecting anyone."
+msgstr "Elegí un país y un header Accept-Language para ver qué idioma resultaría con tu configuración actual, sin redirigir a nadie."
+
+msgid "Country (IP)"
+msgstr "País (IP)"
+
+msgid "Accept-Language"
+msgstr "Accept-Language"
+
+msgid "Simulate"
+msgstr "Simular"
+
+msgid "Result: %s"
+msgstr "Resultado: %s"
+
+msgid "(fallback)"
+msgstr "(respaldo)"
+
+msgid "The redirect is 302 with anti-cache headers: it never gets stored as permanent in page caches."
+msgstr "La redirección es 302 con headers anti-caché: nunca queda guardada como definitiva en cachés de página."
+
+msgid "If URL prefixes are disabled (URLs tab), detection sets the lingua_lang cookie without redirecting and the translation is applied via output buffering."
+msgstr "Si los prefijos de URL están desactivados (pestaña URLs), la detección fija la cookie lingua_lang sin redirigir y la traducción se aplica por output buffering."
+
+msgid "Private or invalid IPs can't be geolocated: in those cases only the browser language (or the fallback) counts."
+msgstr "Las IPs privadas o no válidas no se pueden geolocalizar: en esos casos solo cuenta el idioma del navegador (o el respaldo)."
+
+msgid "Discover frontend strings"
+msgstr "Descubrir cadenas del frontend"
+
+msgid "Crawls your site's public pages and registers all visible texts and translatable attributes (title, alt, placeholder, aria-label, meta description) in the dictionary. Then you can translate them in bulk from the Automatic tab or by hand in Strings."
+msgstr "Rastrea las páginas públicas de tu sitio y registra todos los textos visibles y atributos traducibles (title, alt, placeholder, aria-label, meta description) en el diccionario. Después podés traducirlos en lote desde la pestaña Automática o a mano en Cadenas."
+
+msgid "Honest limitation: content generated 100% with JavaScript after page load isn't captured server-side. For those cases use visual mode (click the text) or output buffering."
+msgstr "Limitación honesta: el contenido que se genera 100% con JavaScript después de cargar la página no se captura del lado servidor. Para esos casos usá el modo visual (clic en el texto) o el output buffering."
+
+msgid "Source"
+msgstr "Origen"
+
+msgid "Site sitemap (automatic)"
+msgstr "Sitemap del sitio (automático)"
+
+msgid "Manual URL list (one per line)"
+msgstr "Lista manual de URLs (una por línea)"
+
+msgid "Only URLs from this same site are accepted. wp-admin and the login are never crawled."
+msgstr "Solo se aceptan URLs de este mismo sitio. Nunca se rastrea wp-admin ni el login."
+
+msgid "Start discovery"
+msgstr "Iniciar descubrimiento"
+
+msgid "Last crawl"
+msgstr "Último rastreo"
+
+msgid "Source: %s"
+msgstr "Origen: %s"
+
+msgid "Pages: %1$d of %2$d"
+msgstr "Páginas: %1$d de %2$d"
+
+msgid "Strings found: %1$d (%2$d new)"
+msgstr "Cadenas encontradas: %1$d (%2$d nuevas)"
+
+msgid "Errors: %d"
+msgstr "Errores: %d"
+
+msgid "Finished: %s"
+msgstr "Terminado: %s"
+
+msgid "Automatic translation"
+msgstr "Traducción automática"
+
+msgid "Bulk-translate pending strings with an external provider. Automatic translations are marked as \"pending review\": if you edit them by hand they become manual and are never overwritten."
+msgstr "Traduce en lote las cadenas pendientes con un proveedor externo. Las traducciones automáticas quedan marcadas como \"pendientes de revisión\": si las editás a mano pasan a manuales y ya no se pisan."
+
+msgid "Provider"
+msgstr "Proveedor"
+
+msgid "Free with no key: works out of the box. ~5,000 chars/day anonymous, ~50,000/day with email. Max ~500 bytes per request (long texts are split automatically). Medium quality: ideal to get started, review the results."
+msgstr "Gratis y sin clave: funciona de fábrica. ~5.000 caracteres/día anónimo, ~50.000/día con email. Máx. ~500 bytes por request (los textos largos se parten solos). Calidad media: ideal para arrancar, revisá los resultados."
+
+msgid "Email (optional, raises the quota)"
+msgstr "Email (opcional, sube la cuota)"
+
+msgid "Best quality for European pairs. 500,000 chars/month free with a free DeepL account (no card)."
+msgstr "La mejor calidad para pares europeos. 500.000 caracteres/mes gratis con cuenta gratuita en DeepL (sin tarjeta)."
+
+msgid "DeepL API key"
+msgstr "API key de DeepL"
+
+msgid "EXPERIMENTAL: unofficial free Google endpoint. It may be throttled or stop working at any time. Do not use it as a dependency."
+msgstr "EXPERIMENTAL: endpoint gratuito no oficial de Google. Puede ser throttled o dejar de funcionar en cualquier momento. No lo uses como dependencia."
+
+msgid "Quota: %s"
+msgstr "Cuota: %s"
+
+msgid "Target language"
+msgstr "Idioma destino"
+
+msgid "— First non-default language —"
+msgstr "— Primer idioma no-default —"
+
+msgid "The source language is always the site default."
+msgstr "El idioma origen siempre es el default del sitio."
+
+msgid "Save settings"
+msgstr "Guardar ajustes"
+
+msgid "Translate pending"
+msgstr "Traducir lo pendiente"
+
+msgid "Add at least one language besides the default in the Languages tab to use automatic translation."
+msgstr "Agregá al menos un idioma además del default en la pestaña Idiomas para usar la traducción automática."
+
+msgid "Target language: %1$s — %2$d pending strings."
+msgstr "Idioma destino: %1$s — %2$d cadenas pendientes."
+
+msgid "Translate all pending"
+msgstr "Traducir todo lo pendiente"
+
+msgid "Honest notes"
+msgstr "Notas honestas"
+
+msgid "Texts are sent to the chosen provider's servers. If privacy is critical, translate by hand."
+msgstr "Los textos se envían a los servidores del proveedor elegido. Si la privacidad es crítica, traducí a mano."
+
+msgid "No engine understands brand context (show names, \"Comando\" as a brand). Manual review is not optional."
+msgstr "Ningún motor entiende contexto de marca (nombres de shows, \"Comando\" como marca). La revisión manual no es opcional."
+
+msgid "When the quota is reached, the process stops on its own and pending items wait for the next period. Nothing breaks mid-batch."
+msgstr "Al llegar a la cuota, el proceso se frena solo y lo pendiente queda para el próximo período. Nada se rompe a mitad de lote."
+
+msgid "The visual mode also suggests translations with this provider (lgv_auto_translate filter)."
+msgstr "El modo visual también sugiere traducciones con este proveedor (filtro lgv_auto_translate)."
+
+msgid "Discovered strings"
+msgstr "Cadenas descubiertas"
+
+msgid "Strings are registered when you translate them with visual mode, when you add them here, when you import them via CSV or when the crawler discovers them."
+msgstr "Las cadenas se registran cuando las traducís con el modo visual, cuando las agregás acá, cuando las importás por CSV o cuando las descubre el rastreador."
+
+msgid "Search strings…"
+msgstr "Buscar cadena…"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "View all"
+msgstr "Ver todas"
+
+msgid "Only automatic"
+msgstr "Solo automáticas"
+
+msgid "Add string manually"
+msgstr "Agregar cadena manualmente"
+
+msgid "Original text"
+msgstr "Texto original"
+
+msgid "Translation"
+msgstr "Traducción"
+
+msgid "Optional: you can register just the original and translate later."
+msgstr "Opcional: podés registrar solo el original y traducir después."
+
+msgid "Save string"
+msgstr "Guardar cadena"
+
+msgid "Dictionary (%d strings)"
+msgstr "Diccionario (%d cadenas)"
+
+msgid "Original"
+msgstr "Original"
+
+msgid "automatic"
+msgstr "automática"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "✓ Reviewed"
+msgstr "✓ Revisada"
+
+msgid "Delete this string and its translations?"
+msgstr "¿Borrar esta cadena y sus traducciones?"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "No strings yet. Use visual mode on the frontend to get started."
+msgstr "Todavía no hay cadenas. Usá el modo visual en el frontend para empezar."
+
+msgid "« Previous"
+msgstr "« Anterior"
+
+msgid "Next »"
+msgstr "Siguiente »"
+
+msgid "Media translations saved."
+msgstr "Traducciones de medios guardadas."
+
+msgid "Add at least one language besides the default in the Languages tab to translate media."
+msgstr "Agregá al menos un idioma además del default en la pestaña Idiomas para traducir medios."
+
+msgid "Translate alt text, title, caption and description of your media library per language. Values are stored in the dictionary, so the frontend output buffer translates them automatically."
+msgstr "Traducí el texto alternativo, título, epígrafe y descripción de tu biblioteca de medios por idioma. Los valores se guardan en el diccionario, así el output buffer del frontend los traduce automáticamente."
+
+msgid "Alt text"
+msgstr "Texto alternativo"
+
+msgid "Translate"
+msgstr "Traducir"
+
+msgid "Invalid attachment."
+msgstr "Adjunto inválido."
+
+msgid "Back"
+msgstr "Volver"
+
+msgid "Field"
+msgstr "Campo"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Caption"
+msgstr "Epígrafe"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Save media translations"
+msgstr "Guardar traducciones de medios"
+
+msgid "Import done: %1$d rows imported, %2$d skipped."
+msgstr "Importación lista: %1$d filas importadas, %2$d salteadas."
+
+msgid "Export"
+msgstr "Exportar"
+
+msgid "All languages"
+msgstr "Todos los idiomas"
+
+msgid "Download CSV"
+msgstr "Descargar CSV"
+
+msgid "Import"
+msgstr "Importar"
+
+msgid "The CSV needs the columns: lang, original, translation (context is optional). Languages must be registered first."
+msgstr "El CSV necesita las columnas: lang, original, translation (context es opcional). Los idiomas tienen que estar registrados antes."
+
+msgid "Import CSV"
+msgstr "Importar CSV"
+
+msgid "XLIFF (professional translators)"
+msgstr "XLIFF (traductores profesionales)"
+
+msgid "Export translation jobs as XLIFF 1.2 for CAT tools (memoQ, Trados, OmegaT), then re-import the translated file."
+msgstr "Exportá trabajos de traducción como XLIFF 1.2 para herramientas CAT (memoQ, Trados, OmegaT), y reimportá el archivo traducido."
+
+msgid "XLIFF imported: %1$d translated, %2$d skipped (%3$s)."
+msgstr "XLIFF importado: %1$d traducidas, %2$d salteadas (%3$s)."
+
+msgid "Export XLIFF"
+msgstr "Exportar XLIFF"
+
+msgid "Only untranslated"
+msgstr "Solo sin traducir"
+
+msgid "Download XLIFF"
+msgstr "Descargar XLIFF"
+
+msgid "Import XLIFF"
+msgstr "Importar XLIFF"
+
+msgid "No permission."
+msgstr "Sin permiso."
+
+msgid "No file was received."
+msgstr "No se recibió el archivo."
+
+msgid "Invalid target language."
+msgstr "Idioma destino inválido."
+
+msgid "Dropdown"
+msgstr "Desplegable"
+
+msgid "Button with the current language and a dropdown list."
+msgstr "Botón con el idioma actual y lista desplegable."
+
+msgid "Horizontal list"
+msgstr "Lista horizontal"
+
+msgid "All languages visible inline."
+msgstr "Todos los idiomas visibles en línea."
+
+msgid "Flags only"
+msgstr "Solo banderas"
+
+msgid "Only the flags, no text."
+msgstr "Solo las banderas, sin texto."
+
+msgid "Text only"
+msgstr "Solo texto"
+
+msgid "Only the names, no flags."
+msgstr "Solo los nombres, sin banderas."
+
+msgid "Flag + text"
+msgstr "Bandera + texto"
+
+msgid "List with flag and name per language."
+msgstr "Lista con bandera y nombre por idioma."
+
+msgid "Opposite language"
+msgstr "Idioma opuesto"
+
+msgid "A button that goes straight to the other language (only with 2 languages)."
+msgstr "Un botón que lleva directo al otro idioma (solo con 2 idiomas)."
+
+msgid "Pill + dialog"
+msgstr "Píldora + ventana"
+
+msgid "Globe + \"Language\" opening a selector (Airbnb style)."
+msgstr "Globo + \"Idioma\" que abre un selector (estilo Airbnb)."
+
+msgid "Customize how the language switcher looks and behaves. Everything you change is previewed instantly above."
+msgstr "Personalizá cómo se ve y se comporta el selector de idioma. Todo lo que cambies se previsualiza al instante arriba."
+
+msgid "Live preview"
+msgstr "Vista previa en vivo"
+
+msgid "Desktop"
+msgstr "Escritorio"
+
+msgid "Mobile"
+msgstr "Móvil"
+
+msgid "Loading preview…"
+msgstr "Cargando vista previa…"
+
+msgid "Display mode"
+msgstr "Modo de visualización"
+
+msgid "Flags"
+msgstr "Banderas"
+
+msgid "Shape"
+msgstr "Forma"
+
+msgid "Rectangle"
+msgstr "Rectángulo"
+
+msgid "Rounded"
+msgstr "Redondeada"
+
+msgid "Circle"
+msgstr "Círculo"
+
+msgid "Size (px)"
+msgstr "Tamaño (px)"
+
+msgid "Flag position"
+msgstr "Posición de la bandera"
+
+msgid "Before the text"
+msgstr "Antes del texto"
+
+msgid "After the text"
+msgstr "Después del texto"
+
+msgid "Hidden"
+msgstr "Oculta"
+
+msgid "Flag and label per language"
+msgstr "Bandera y etiqueta por idioma"
+
+msgid "Choose which flag represents each language (e.g. UK or USA for English), upload your own SVG or write a custom label."
+msgstr "Elegí qué bandera representa a cada idioma (por ejemplo UK o USA para el inglés), subí un SVG propio o escribí una etiqueta personalizada."
+
+msgid "Current"
+msgstr "Actual"
+
+msgid "Variant"
+msgstr "Variante"
+
+msgid "Own SVG"
+msgstr "SVG propio"
+
+msgid "Custom label"
+msgstr "Etiqueta personalizada"
+
+msgid "Custom SVG active."
+msgstr "SVG custom activo."
+
+msgid "Text"
+msgstr "Texto"
+
+msgid "Which text to show"
+msgstr "Qué texto mostrar"
+
+msgid "Native name (Español, English)"
+msgstr "Nombre nativo (Español, English)"
+
+msgid "ISO code (ES, EN)"
+msgstr "Código ISO (ES, EN)"
+
+msgid "Nothing (flag only)"
+msgstr "Nada (solo bandera)"
+
+msgid "The \"Custom label\" in the table above takes priority over this format."
+msgstr "La \"Etiqueta personalizada\" de la tabla de arriba tiene prioridad sobre este formato."
+
+msgid "Tooltip"
+msgstr "Tooltip"
+
+msgid "Show the language name on hover (tooltip)"
+msgstr "Mostrar el nombre del idioma al pasar el mouse (tooltip)"
+
+msgid "The text is shown in the site's active language: if the site is in English, the Spanish flag reads \"Spanish\"."
+msgstr "El texto se muestra en el idioma activo del sitio: si el sitio está en inglés, la bandera de español dice \"Spanish\"."
+
+msgid "Behavior"
+msgstr "Comportamiento"
+
+msgid "Dropdown opening"
+msgstr "Apertura del desplegable"
+
+msgid "On click"
+msgstr "Al hacer clic"
+
+msgid "On hover"
+msgstr "Al pasar el mouse"
+
+msgid "Opening direction"
+msgstr "Dirección de apertura"
+
+msgid "Down"
+msgstr "Hacia abajo"
+
+msgid "Up"
+msgstr "Hacia arriba"
+
+msgid "Animation"
+msgstr "Animación"
+
+msgid "Fade"
+msgstr "Fundido"
+
+msgid "Slide"
+msgstr "Desliz"
+
+msgid "No animation"
+msgstr "Sin animación"
+
+msgid "Visibility"
+msgstr "Visibilidad"
+
+msgid "Show the current language inside the list"
+msgstr "Mostrar el idioma actual dentro de la lista"
+
+msgid "Hide the current language from the list (only the others)"
+msgstr "Ocultar el idioma actual de la lista (solo los otros)"
+
+msgid "Show the default language in the switcher"
+msgstr "Mostrar el idioma default en el switcher"
+
+msgid "Hide languages with no translations loaded"
+msgstr "Ocultar idiomas sin ninguna traducción cargada"
+
+msgid "Close when clicking outside"
+msgstr "Cerrar al hacer clic fuera"
+
+msgid "Language order"
+msgstr "Orden de idiomas"
+
+msgid "Manual (drag)"
+msgstr "Manual (arrastrar)"
+
+msgid "Alphabetical by native name"
+msgstr "Alfabético por nombre nativo"
+
+msgid "Drag"
+msgstr "Arrastrar"
+
+msgid "Search box"
+msgstr "Buscador"
+
+msgid "Show a search box inside the dropdown/dialog"
+msgstr "Mostrar buscador dentro del desplegable/ventana"
+
+msgid "From how many languages:"
+msgstr "Desde cuántos idiomas:"
+
+msgid "Style"
+msgstr "Estilo"
+
+msgid "One-click presets"
+msgstr "Presets de un clic"
+
+msgid "Background"
+msgstr "Fondo"
+
+msgid "Background (hover)"
+msgstr "Fondo (hover)"
+
+msgid "Text (hover)"
+msgstr "Texto (hover)"
+
+msgid "Border"
+msgstr "Borde"
+
+msgid "Border width (px)"
+msgstr "Ancho de borde (px)"
+
+msgid "Border radius (px)"
+msgstr "Radio de borde (px)"
+
+msgid "Padding (px)"
+msgstr "Relleno (px)"
+
+msgid "Vertical"
+msgstr "Vertical"
+
+msgid "Horizontal"
+msgstr "Horizontal"
+
+msgid "Font size (px)"
+msgstr "Tamaño de letra (px)"
+
+msgid "Font weight"
+msgstr "Peso de letra"
+
+msgid "Typography"
+msgstr "Tipografía"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "Serif"
+msgstr "Serif"
+
+msgid "Monospaced"
+msgstr "Monoespaciada"
+
+msgid "Inherit from theme"
+msgstr "Heredar del theme"
+
+msgid "Shadow"
+msgstr "Sombra"
+
+msgid "Soft shadow (elevation)"
+msgstr "Sombra suave (elevación)"
+
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+msgid "It's printed after the generated styles. You can use the --lgv-bg, --lgv-text, etc. variables."
+msgstr "Se imprime después de los estilos generados. Podés usar las variables --lgv-bg, --lgv-text, etc."
+
+msgid "Performance"
+msgstr "Rendimiento"
+
+msgid "Don't load the switcher CSS/JS (to style it 100% by hand)"
+msgstr "No cargar el CSS/JS del switcher (para maquetarlo 100% a mano)"
+
+msgid "Enable mobile settings"
+msgstr "Activar ajustes móviles"
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "Breakpoint (px)"
+msgstr "Breakpoint (px)"
+
+msgid "Below this width the mobile settings apply."
+msgstr "Debajo de este ancho se aplican los ajustes móviles."
+
+msgid "Mobile mode"
+msgstr "Modo en móvil"
+
+msgid "Same as desktop"
+msgstr "Igual que en escritorio"
+
+msgid "Flags only (compact)"
+msgstr "Solo banderas (compacto)"
+
+msgid "Full-screen drawer"
+msgstr "Drawer a pantalla completa"
+
+msgid "The drawer turns the dropdown and the dialog into a full-screen panel, ideal with many languages."
+msgstr "El drawer convierte el desplegable y la ventana en un panel de pantalla completa, ideal con muchos idiomas."
+
+msgid "Location"
+msgstr "Ubicación"
+
+msgid "Menu item"
+msgstr "Ítem de menú"
+
+msgid "— Don't add —"
+msgstr "— No agregar —"
+
+msgid "Adds the switcher as the last item of the chosen menu."
+msgstr "Agrega el switcher como último ítem del menú elegido."
+
+msgid "Menu mode"
+msgstr "Modo en el menú"
+
+msgid "Floating button"
+msgstr "Botón flotante"
+
+msgid "Show a floating button fixed on screen"
+msgstr "Mostrar botón flotante fijo en la pantalla"
+
+msgid "Position:"
+msgstr "Posición:"
+
+msgid "Bottom right"
+msgstr "Abajo derecha"
+
+msgid "Bottom left"
+msgstr "Abajo izquierda"
+
+msgid "Top right"
+msgstr "Arriba derecha"
+
+msgid "Top left"
+msgstr "Arriba izquierda"
+
+msgid "Mode:"
+msgstr "Modo:"
+
+msgid "Accessibility"
+msgstr "Accesibilidad"
+
+msgid "The dropdown uses ARIA listbox/option with aria-expanded and can be operated with Tab, arrows, Enter and Escape."
+msgstr "El desplegable usa ARIA listbox/option con aria-expanded y se puede operar con Tab, flechas, Enter y Escape."
+
+msgid "The modal dialog is a dialog with aria-modal, managed focus and closing with Escape or backdrop click."
+msgstr "La ventana modal es un dialog con aria-modal, foco gestionado y cierre con Escape o clic en el fondo."
+
+msgid "Flags are decorative (aria-hidden); each option carries hreflang and the current language is marked with aria-current."
+msgstr "Las banderas son decorativas (aria-hidden); cada opción lleva hreflang y el idioma actual se marca con aria-current."
+
+msgid "Tip: flags represent countries, not languages. If your audience is broad, prefer showing the language name too."
+msgstr "Consejo: las banderas representan países, no idiomas. Si tu audiencia es amplia, preferí mostrar también el nombre del idioma."
+
+msgid "Save switcher settings"
+msgstr "Guardar ajustes del switcher"
+
+msgid "MyMemory (free, no key)"
+msgstr "MyMemory (gratis, sin clave)"
+
+msgid "MyMemory returned an unexpected response."
+msgstr "MyMemory devolvió una respuesta inesperada."
+
+msgid "MyMemory: daily quota exhausted. Try tomorrow or add an email in the settings."
+msgstr "MyMemory: cuota diaria agotada. Probá mañana o agregá un email en los ajustes."
+
+msgid "MyMemory: %s"
+msgstr "MyMemory: %s"
+
+msgid "DeepL (free key)"
+msgstr "DeepL (clave gratuita)"
+
+msgid "DeepL: API key missing. Paste it in the settings."
+msgstr "DeepL: falta la API key. Pegala en los ajustes."
+
+msgid "DeepL: monthly quota exhausted (500K characters)."
+msgstr "DeepL: cuota mensual agotada (500K caracteres)."
+
+msgid "DeepL: invalid API key (403)."
+msgstr "DeepL: API key inválida (403)."
+
+msgid "DeepL: HTTP error %d."
+msgstr "DeepL: error HTTP %d."
+
+msgid "Google (experimental, unofficial)"
+msgstr "Google (experimental, no oficial)"
+
+msgid "Google: HTTP %d (throttled or down)."
+msgstr "Google: HTTP %d (throttled o caído)."
+
+msgid "Google: unexpected response."
+msgstr "Google: respuesta inesperada."
+
+msgid "Unknown provider."
+msgstr "Proveedor desconocido."
+
+msgid "This provider needs an API key. Paste it in the settings."
+msgstr "Este proveedor necesita una API key. Pegala en los ajustes."
+
+msgid "Provider quota exhausted for this period."
+msgstr "Cuota del proveedor agotada para este período."
+
+msgid "… → untranslated."
+msgstr "… → sin traducción."
+
+msgid "%s characters used (unknown limit)"
+msgstr "%s caracteres usados (límite desconocido)"
+
+msgid "today"
+msgstr "hoy"
+
+msgid "this month"
+msgstr "este mes"
+
+msgid "%1$s / %2$s characters %3$s"
+msgstr "%1$s / %2$s caracteres %3$s"
+
+msgid "Method: %s."
+msgstr "Método: %s."
+
+msgid "browser + IP (recommended)"
+msgstr "navegador + IP (recomendado)"
+
+msgid "browser only"
+msgstr "solo navegador"
+
+msgid "IP only"
+msgstr "solo IP"
+
+msgid "Browser: no languages in the header."
+msgstr "Navegador: sin idiomas en el header."
+
+msgid "Browser: %s."
+msgstr "Navegador: %s."
+
+msgid "IP → country %1$s (%2$s) → likely languages: %3$s."
+msgstr "IP → país %1$s (%2$s) → idiomas probables: %3$s."
+
+msgid "IP → invalid or unknown country."
+msgstr "IP → país no válido o desconocido."
+
+msgid "Site active languages: %s."
+msgstr "Idiomas activos del sitio: %s."
+
+msgid "No matches → fallback language: %s."
+msgstr "Sin coincidencias → idioma de respaldo: %s."
+
+msgid "Match → winning language: %s."
+msgstr "Coincidencia → idioma ganador: %s."
+
+msgid "We switched you to %s based on your location."
+msgstr "Te cambiamos a %s según tu ubicación."
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "The sitemap returned no URLs."
+msgstr "El sitemap no devolvió URLs."
+
+msgid "HTTP %d reading %s"
+msgstr "HTTP %d al leer %s"
+
+msgid "Empty response."
+msgstr "Respuesta vacía."
+
+msgid "Could not parse the XML."
+msgstr "No se pudo parsear el XML."
+
+msgid "sitemap.xml"
+msgstr "sitemap.xml"
+
+msgid "manual list"
+msgstr "lista manual"
+
+msgid "No valid URLs from this site in the list."
+msgstr "No hay URLs válidas de este sitio en la lista."
+
+msgid "HTTP %d"
+msgstr "HTTP %d"
+
+msgid "Not HTML."
+msgstr "No es HTML."
+
+msgid "Empty HTML."
+msgstr "HTML vacío."
+
+msgid "Could not parse the HTML."
+msgstr "No se pudo parsear el HTML."
+
+msgid "Language Switcher (Lingua Visual)"
+msgstr "Selector de idioma (Lingua Visual)"
+
+msgid "Displays the Lingua Visual language switcher."
+msgstr "Muestra el selector de idiomas de Lingua Visual."
+
+msgid "Title:"
+msgstr "Título:"
+
+msgid "The language code and name are required."
+msgstr "El código y el nombre del idioma son obligatorios."
+
+msgid "You can't remove the default language. Change it first."
+msgstr "No podés quitar el idioma default. Cambialo primero."
+
+msgid "That language does not exist."
+msgstr "Ese idioma no existe."
+
+msgid "Could not open the file."
+msgstr "No se pudo abrir el archivo."
+
+msgid "The CSV is empty."
+msgstr "El CSV está vacío."
+
+msgid "The CSV needs the columns: lang, original, translation."
+msgstr "El CSV necesita las columnas: lang, original, translation."
+
+msgid "Line %1$d: language \"%2$s\" is not registered, skipped."
+msgstr "Línea %1$d: el idioma \"%2$s\" no está registrado, se salteó."
+
+msgid "Minimalist"
+msgstr "Minimalista"
+
+msgid "Pill"
+msgstr "Píldora"
+
+msgid "Dark"
+msgstr "Oscuro"
+
+msgid "Corporate blue"
+msgstr "Corporativo azul"
+
+msgid "Editorial underline"
+msgstr "Subrayado editorial"
+
+msgid "Search language…"
+msgstr "Buscar idioma…"
+
+msgid "Search language"
+msgstr "Buscar idioma"
+
+msgid "Available languages"
+msgstr "Idiomas disponibles"
+
+msgid "Switch to %s"
+msgstr "Cambiar a %s"
+
+msgid "Choose language"
+msgstr "Elegir idioma"
+
+msgid "Choose your language"
+msgstr "Elegí tu idioma"
+
+msgid "✕ Exit translation mode"
+msgstr "✕ Salir del modo traducción"
+
+msgid "🌐 Translate this page"
+msgstr "🌐 Traducir esta página"
+
+msgid "Translate text"
+msgstr "Traducir texto"
+
+msgid "Save translation"
+msgstr "Guardar traducción"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Translation saved!"
+msgstr "¡Traducción guardada!"
+
+msgid "Could not save. Try again."
+msgstr "No se pudo guardar. Probá de nuevo."
+
+msgid "Click any text on the page to translate it. You can also select a snippet and click it."
+msgstr "Clickeá cualquier texto de la página para traducirlo. También podés seleccionar un fragmento y clickearlo."
+
+msgid "Missing data: original, language and translation are required."
+msgstr "Faltan datos: original, idioma y traducción son obligatorios."
+
+msgid "That language is not registered."
+msgstr "Ese idioma no está registrado."
+
+msgid "The original text is too long (max. 2000 characters)."
+msgstr "El texto original es demasiado largo (máx. 2000 caracteres)."
+
+msgid "Could not save to the database."
+msgstr "No se pudo guardar en la base de datos."
+
+msgid "Could not parse the XLIFF file."
+msgstr "No se pudo parsear el archivo XLIFF."
+
+msgid "No <file> element found in the XLIFF."
+msgstr "No se encontró elemento <file> en el XLIFF."
+
+msgid "Target language \"%s\" is not registered. Register it first."
+msgstr "El idioma destino \"%s\" no está registrado. Registralo primero."
+
+msgid "Preview unavailable: add at least two languages in the Languages tab."
+msgstr "Vista previa no disponible: agregá al menos dos idiomas en la pestaña Idiomas."
+

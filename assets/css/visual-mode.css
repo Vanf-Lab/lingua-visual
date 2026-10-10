@@ -1,0 +1,111 @@
+/* Lingua Visual — modo visual */
+body.lgv-visual-active {
+	cursor: crosshair;
+}
+
+.lgv-hover {
+	outline: 2px dashed #2271b1 !important;
+	outline-offset: 2px;
+}
+
+.lgv-translated {
+	outline: 2px solid #00a32a !important;
+	outline-offset: 2px;
+}
+
+.lgv-hint-bar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 999998;
+	background: #1d2327;
+	color: #fff;
+	text-align: center;
+	padding: 10px 16px;
+	font-size: 14px;
+}
+
+.lgv-overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 999999;
+	background: rgba(0, 0, 0, 0.55);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.lgv-modal {
+	background: #fff;
+	border-radius: 8px;
+	max-width: 520px;
+	width: 100%;
+	padding: 24px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+
+.lgv-modal-title {
+	margin: 0 0 16px;
+	font-size: 18px;
+}
+
+.lgv-label {
+	display: block;
+	font-weight: 600;
+	margin: 12px 0 4px;
+	font-size: 13px;
+}
+
+.lgv-input {
+	width: 100%;
+	padding: 8px;
+	font-size: 14px;
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.lgv-actions {
+	margin-top: 16px;
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+}
+
+.lgv-btn {
+	padding: 8px 16px;
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+	background: #f6f7f7;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.lgv-btn-primary {
+	background: #2271b1;
+	border-color: #2271b1;
+	color: #fff;
+}
+
+.lgv-btn:disabled {
+	opacity: 0.6;
+	cursor: default;
+}
+
+.lgv-msg {
+	min-height: 20px;
+	margin: 10px 0 0;
+	font-size: 13px;
+}
+
+.lgv-msg.lgv-ok {
+	color: #00a32a;
+	font-weight: 600;
+}
+
+.lgv-msg.lgv-err {
+	color: #d63638;
+	font-weight: 600;
+}

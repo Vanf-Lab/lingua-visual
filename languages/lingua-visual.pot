@@ -1,0 +1,1731 @@
+# Copyright (C) 2026 Vanf Lab
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lingua Visual 0.6.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lgv-lint\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-10T22:05:30+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: lingua-visual\n"
+
+#. Plugin Name of the plugin
+#: lingua-visual.php
+#: includes/class-lgv-admin.php:121
+#: includes/class-lgv-admin.php:122
+#: includes/class-lgv-admin.php:291
+msgid "Lingua Visual"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: lingua-visual.php
+msgid "https://vanflab.com/plugins/lingua-visual"
+msgstr ""
+
+#. Description of the plugin
+#: lingua-visual.php
+msgid "Visual multilingual translation with UNLIMITED languages, free. Click any frontend text and translate it on the spot. Own manual dictionary, no paid APIs. Per-language URLs (/en/page/) that persist while browsing and play nice with caching. Automatic language detection via IP geolocation + browser language. Frontend string discovery + automatic translation (free MyMemory, DeepL)."
+msgstr ""
+
+#. Author of the plugin
+#: lingua-visual.php
+msgid "Vanf Lab"
+msgstr ""
+
+#. Author URI of the plugin
+#: lingua-visual.php
+msgid "https://vanflab.com"
+msgstr ""
+
+#: includes/class-lgv-admin.php:82
+msgid "Starting crawl…"
+msgstr ""
+
+#: includes/class-lgv-admin.php:83
+#, php-format
+msgid "%1$d/%2$d pages · %3$d strings found · %4$d new"
+msgstr ""
+
+#: includes/class-lgv-admin.php:84
+#: includes/class-lgv-admin.php:107
+msgid "Errors"
+msgstr ""
+
+#: includes/class-lgv-admin.php:85
+msgid "Crawl finished. New strings are already in the Strings tab."
+msgstr ""
+
+#: includes/class-lgv-admin.php:86
+#: includes/class-lgv-admin.php:110
+msgid "An error occurred. Try again."
+msgstr ""
+
+#: includes/class-lgv-admin.php:104
+msgid "Automatically translate all pending strings? They'll be marked as automatic for you to review."
+msgstr ""
+
+#: includes/class-lgv-admin.php:105
+msgid "Translating…"
+msgstr ""
+
+#: includes/class-lgv-admin.php:106
+#, php-format
+msgid "%1$d translated · %2$d characters · %3$d pending"
+msgstr ""
+
+#: includes/class-lgv-admin.php:108
+msgid "Provider quota exhausted. Pending items wait for the next period."
+msgstr ""
+
+#: includes/class-lgv-admin.php:109
+msgid "Done. Review the automatic translations in the Strings tab (\"Only automatic\" filter)."
+msgstr ""
+
+#: includes/class-lgv-admin.php:145
+msgid "Language added."
+msgstr ""
+
+#: includes/class-lgv-admin.php:150
+msgid "Language removed."
+msgstr ""
+
+#: includes/class-lgv-admin.php:155
+msgid "Default language updated."
+msgstr ""
+
+#: includes/class-lgv-admin.php:163
+msgid "String saved."
+msgstr ""
+
+#: includes/class-lgv-admin.php:163
+msgid "Could not save: check the data."
+msgstr ""
+
+#: includes/class-lgv-admin.php:171
+#: includes/class-lgv-visual.php:147
+msgid "Translation saved."
+msgstr ""
+
+#: includes/class-lgv-admin.php:171
+msgid "Could not save."
+msgstr ""
+
+#: includes/class-lgv-admin.php:176
+msgid "String deleted."
+msgstr ""
+
+#: includes/class-lgv-admin.php:176
+msgid "Could not delete."
+msgstr ""
+
+#: includes/class-lgv-admin.php:186
+msgid "URL settings saved."
+msgstr ""
+
+#: includes/class-lgv-admin.php:192
+msgid "Detection settings saved."
+msgstr ""
+
+#: includes/class-lgv-admin.php:203
+msgid "Switcher settings saved."
+msgstr ""
+
+#: includes/class-lgv-admin.php:209
+msgid "Automatic translation settings saved."
+msgstr ""
+
+#: includes/class-lgv-admin.php:217
+msgid "Marked as reviewed: it's now a manual translation."
+msgstr ""
+
+#: includes/class-lgv-admin.php:217
+msgid "Could not mark."
+msgstr ""
+
+#: includes/class-lgv-admin.php:257
+msgid "An error occurred."
+msgstr ""
+
+#: includes/class-lgv-admin.php:267
+msgid "You don't have permission to view this page."
+msgstr ""
+
+#: includes/class-lgv-admin.php:276
+#: includes/class-lgv-admin.php:333
+msgid "Languages"
+msgstr ""
+
+#: includes/class-lgv-admin.php:277
+msgid "Switcher"
+msgstr ""
+
+#: includes/class-lgv-admin.php:278
+msgid "URLs"
+msgstr ""
+
+#: includes/class-lgv-admin.php:279
+msgid "Detection"
+msgstr ""
+
+#: includes/class-lgv-admin.php:280
+msgid "Discover"
+msgstr ""
+
+#: includes/class-lgv-admin.php:281
+#: includes/class-lgv-admin.php:1312
+msgid "Automatic"
+msgstr ""
+
+#: includes/class-lgv-admin.php:282
+msgid "Strings"
+msgstr ""
+
+#: includes/class-lgv-admin.php:283
+#: includes/class-lgv-admin.php:933
+msgid "Media"
+msgstr ""
+
+#: includes/class-lgv-admin.php:284
+msgid "Import / Export"
+msgstr ""
+
+#: includes/class-lgv-admin.php:293
+msgid "Visual translation with unlimited languages. Enable visual mode from the admin bar on the frontend (\"Translate this page\") and click any text to translate it."
+msgstr ""
+
+#: includes/class-lgv-admin.php:334
+msgid "No language limit. The default language shows without a prefix in the URL (e.g. /my-page/); the others use their prefix (e.g. /en/my-page/)."
+msgstr ""
+
+#: includes/class-lgv-admin.php:337
+#: includes/class-lgv-admin.php:369
+msgid "Code"
+msgstr ""
+
+#: includes/class-lgv-admin.php:338
+#: includes/class-lgv-admin.php:809
+#: includes/class-lgv-admin.php:1292
+#: includes/class-lgv-frontend.php:498
+#: includes/class-lgv-switcher.php:776
+msgid "Language"
+msgstr ""
+
+#: includes/class-lgv-admin.php:339
+#: includes/class-lgv-admin.php:992
+msgid "Default"
+msgstr ""
+
+#: includes/class-lgv-admin.php:340
+#: includes/class-lgv-admin.php:834
+msgid "Actions"
+msgstr ""
+
+#: includes/class-lgv-admin.php:353
+msgid "Make default"
+msgstr ""
+
+#: includes/class-lgv-admin.php:355
+msgid "Remove this language and its translations?"
+msgstr ""
+
+#: includes/class-lgv-admin.php:355
+#: includes/class-lgv-admin.php:1321
+msgid "Remove"
+msgstr ""
+
+#: includes/class-lgv-admin.php:364
+#: includes/class-lgv-admin.php:382
+msgid "Add language"
+msgstr ""
+
+#: includes/class-lgv-admin.php:371
+msgid "Lowercase, e.g.: en, pt, fr."
+msgstr ""
+
+#: includes/class-lgv-admin.php:374
+msgid "Name"
+msgstr ""
+
+#: includes/class-lgv-admin.php:378
+msgid "Flag (emoji)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:385
+#: includes/class-lgv-admin.php:1230
+msgid "Language switcher"
+msgstr ""
+
+#: includes/class-lgv-admin.php:387
+msgid "Shortcode:"
+msgstr ""
+
+#: includes/class-lgv-admin.php:388
+msgid "With attributes:"
+msgstr ""
+
+#: includes/class-lgv-admin.php:389
+msgid "Attributes: mode (dropdown, inline, flags, text, flag_text, opposite, pill_modal), trigger (click, hover), flag_position (before, after, hidden), flag_shape (rect, rounded, circle), name_format (native, iso, none), class. Everything is customized in the Switcher tab."
+msgstr ""
+
+#: includes/class-lgv-admin.php:390
+msgid "Or add the \"Language Switcher (Lingua Visual)\" widget in Appearance → Widgets."
+msgstr ""
+
+#: includes/class-lgv-admin.php:402
+msgid "URLs per language"
+msgstr ""
+
+#: includes/class-lgv-admin.php:404
+msgid "With prefixes enabled, each language lives at its own URL (e.g. /en/my-page/). The default language has no prefix. Since each language is a different URL, page caches (WP Rocket and similar) store one translated version per language and the translation persists while browsing."
+msgstr ""
+
+#: includes/class-lgv-admin.php:410
+msgid "Language prefixes"
+msgstr ""
+
+#: includes/class-lgv-admin.php:414
+msgid "Enable language-prefixed URLs"
+msgstr ""
+
+#: includes/class-lgv-admin.php:417
+#, php-format
+msgid "Example: %s"
+msgstr ""
+
+#: includes/class-lgv-admin.php:418
+msgid "No custom rewrite rules are added: the prefix is detected before WordPress parsing and works with any permalink structure."
+msgstr ""
+
+#: includes/class-lgv-admin.php:423
+msgid "Automatic redirection"
+msgstr ""
+
+#: includes/class-lgv-admin.php:427
+msgid "Redirect ?lang= and the cookie to the prefixed URL (302)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:429
+msgid "This way the language always ends up in the URL. If you disable it, ?lang= and the cookie keep working with output buffering (0.1.0 behavior)."
+msgstr ""
+
+#: includes/class-lgv-admin.php:433
+msgid "Save URL settings"
+msgstr ""
+
+#: includes/class-lgv-admin.php:436
+#: includes/class-lgv-admin.php:628
+msgid "Notes"
+msgstr ""
+
+#: includes/class-lgv-admin.php:438
+msgid "The default language never gets a prefix; if someone visits /es/my-page/ while \"es\" is the default, it redirects (301) to /my-page/."
+msgstr ""
+
+#: includes/class-lgv-admin.php:439
+msgid "System routes (wp-admin, wp-login.php, wp-json, wp-content, etc.) never get a prefix."
+msgstr ""
+
+#: includes/class-lgv-admin.php:440
+msgid "Avoid using a registered language code as a page slug (e.g. don't create a page called \"en\")."
+msgstr ""
+
+#: includes/class-lgv-admin.php:441
+msgid "The <head> prints the hreflang of each language plus x-default, and the canonical follows the active language."
+msgstr ""
+
+#: includes/class-lgv-admin.php:466
+msgid "Automatic language detection"
+msgstr ""
+
+#: includes/class-lgv-admin.php:468
+msgid "On the first visit, the plugin can guess the visitor's language and redirect them (302) to the matching prefixed URL. The user's explicit choice (prefixed URL, ?lang= or cookie) always wins and is never redirected. Detection runs once per visitor (30-day lgv_detected cookie)."
+msgstr ""
+
+#: includes/class-lgv-admin.php:474
+msgid "Automatic detection"
+msgstr ""
+
+#: includes/class-lgv-admin.php:478
+msgid "Enable automatic detection and redirection"
+msgstr ""
+
+#: includes/class-lgv-admin.php:483
+msgid "Method"
+msgstr ""
+
+#: includes/class-lgv-admin.php:487
+msgid "Browser + IP (recommended)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:488
+msgid "First the browser language; if it doesn't match an active language, the IP country is used."
+msgstr ""
+
+#: includes/class-lgv-admin.php:492
+msgid "Browser language only (Accept-Language header)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:496
+msgid "IP geolocation only"
+msgstr ""
+
+#: includes/class-lgv-admin.php:501
+msgid "Country-by-IP provider"
+msgstr ""
+
+#: includes/class-lgv-admin.php:504
+msgid "Query order: 1) Cloudflare header (free, no external calls), 2) local map below, 3) external API (only if you enable it)."
+msgstr ""
+
+#. translators: %s: código de país.
+#: includes/class-lgv-admin.php:510
+#, php-format
+msgid "On your current visit Cloudflare reports country: %s."
+msgstr ""
+
+#: includes/class-lgv-admin.php:514
+msgid "On your current visit there is no Cloudflare header (your site doesn't go through their proxy or doesn't send the country)."
+msgstr ""
+
+#: includes/class-lgv-admin.php:518
+msgid "Local map (optional)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:520
+msgid "One rule per line: CIDR=COUNTRY or IP=COUNTRY (e.g. 203.0.113.0/24=AR). Useful for tests or known ranges. No external calls."
+msgstr ""
+
+#: includes/class-lgv-admin.php:523
+msgid "Enable querying an external GeoIP API"
+msgstr ""
+
+#: includes/class-lgv-admin.php:526
+msgid "Privacy: only enable it if you agree to send the visitor's IP to a third party. The result is cached per IP (transient) to avoid hammering the API."
+msgstr ""
+
+#: includes/class-lgv-admin.php:527
+msgid "The ip-api.com free plan allows 45 queries per minute."
+msgstr ""
+
+#: includes/class-lgv-admin.php:530
+msgid "API URL. Use {ip} as placeholder. It must return JSON with countryCode, country_code or country (2 letters)."
+msgstr ""
+
+#: includes/class-lgv-admin.php:532
+msgid "Days of cache per IP:"
+msgstr ""
+
+#: includes/class-lgv-admin.php:538
+msgid "Fallback language"
+msgstr ""
+
+#: includes/class-lgv-admin.php:542
+#, php-format
+msgid "Site default language (%s)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:550
+msgid "Used when detection finds no match with your active languages (e.g. a visitor from France and you only have Spanish and English)."
+msgstr ""
+
+#: includes/class-lgv-admin.php:554
+msgid "Rules"
+msgstr ""
+
+#: includes/class-lgv-admin.php:558
+msgid "Never redirect bots/crawlers (Googlebot, Bingbot, etc.)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:559
+msgid "Critical for SEO: search engines must see every language version."
+msgstr ""
+
+#: includes/class-lgv-admin.php:561
+msgid "Scope:"
+msgstr ""
+
+#: includes/class-lgv-admin.php:564
+msgid "All pages"
+msgstr ""
+
+#: includes/class-lgv-admin.php:568
+msgid "Homepage only"
+msgstr ""
+
+#: includes/class-lgv-admin.php:572
+msgid "Show a \"We switched you to X\" notice after redirecting, with a link to go back"
+msgstr ""
+
+#: includes/class-lgv-admin.php:577
+msgid "Save detection settings"
+msgstr ""
+
+#: includes/class-lgv-admin.php:580
+msgid "Test simulator"
+msgstr ""
+
+#: includes/class-lgv-admin.php:581
+msgid "Pick a country and an Accept-Language header to see which language would result with your current configuration, without redirecting anyone."
+msgstr ""
+
+#: includes/class-lgv-admin.php:586
+msgid "Country (IP)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:599
+msgid "Accept-Language"
+msgstr ""
+
+#: includes/class-lgv-admin.php:606
+msgid "Simulate"
+msgstr ""
+
+#. translators: %s: idioma ganador.
+#: includes/class-lgv-admin.php:614
+#, php-format
+msgid "Result: %s"
+msgstr ""
+
+#: includes/class-lgv-admin.php:617
+msgid "(fallback)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:630
+msgid "The redirect is 302 with anti-cache headers: it never gets stored as permanent in page caches."
+msgstr ""
+
+#: includes/class-lgv-admin.php:631
+msgid "If URL prefixes are disabled (URLs tab), detection sets the lingua_lang cookie without redirecting and the translation is applied via output buffering."
+msgstr ""
+
+#: includes/class-lgv-admin.php:632
+msgid "Private or invalid IPs can't be geolocated: in those cases only the browser language (or the fallback) counts."
+msgstr ""
+
+#: includes/class-lgv-admin.php:644
+msgid "Discover frontend strings"
+msgstr ""
+
+#: includes/class-lgv-admin.php:646
+msgid "Crawls your site's public pages and registers all visible texts and translatable attributes (title, alt, placeholder, aria-label, meta description) in the dictionary. Then you can translate them in bulk from the Automatic tab or by hand in Strings."
+msgstr ""
+
+#: includes/class-lgv-admin.php:649
+msgid "Honest limitation: content generated 100% with JavaScript after page load isn't captured server-side. For those cases use visual mode (click the text) or output buffering."
+msgstr ""
+
+#: includes/class-lgv-admin.php:654
+msgid "Source"
+msgstr ""
+
+#: includes/class-lgv-admin.php:658
+msgid "Site sitemap (automatic)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:663
+msgid "Manual URL list (one per line)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:666
+msgid "Only URLs from this same site are accepted. wp-admin and the login are never crawled."
+msgstr ""
+
+#: includes/class-lgv-admin.php:671
+msgid "Start discovery"
+msgstr ""
+
+#: includes/class-lgv-admin.php:681
+msgid "Last crawl"
+msgstr ""
+
+#: includes/class-lgv-admin.php:683
+#, php-format
+msgid "Source: %s"
+msgstr ""
+
+#: includes/class-lgv-admin.php:684
+#, php-format
+msgid "Pages: %1$d of %2$d"
+msgstr ""
+
+#: includes/class-lgv-admin.php:685
+#, php-format
+msgid "Strings found: %1$d (%2$d new)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:686
+#, php-format
+msgid "Errors: %d"
+msgstr ""
+
+#: includes/class-lgv-admin.php:687
+#, php-format
+msgid "Finished: %s"
+msgstr ""
+
+#: includes/class-lgv-admin.php:702
+msgid "Automatic translation"
+msgstr ""
+
+#: includes/class-lgv-admin.php:704
+msgid "Bulk-translate pending strings with an external provider. Automatic translations are marked as \"pending review\": if you edit them by hand they become manual and are never overwritten."
+msgstr ""
+
+#: includes/class-lgv-admin.php:709
+msgid "Provider"
+msgstr ""
+
+#: includes/class-lgv-admin.php:721
+msgid "Free with no key: works out of the box. ~5,000 chars/day anonymous, ~50,000/day with email. Max ~500 bytes per request (long texts are split automatically). Medium quality: ideal to get started, review the results."
+msgstr ""
+
+#: includes/class-lgv-admin.php:722
+msgid "Email (optional, raises the quota)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:725
+msgid "Best quality for European pairs. 500,000 chars/month free with a free DeepL account (no card)."
+msgstr ""
+
+#: includes/class-lgv-admin.php:726
+msgid "DeepL API key"
+msgstr ""
+
+#: includes/class-lgv-admin.php:729
+msgid "EXPERIMENTAL: unofficial free Google endpoint. It may be throttled or stop working at any time. Do not use it as a dependency."
+msgstr ""
+
+#: includes/class-lgv-admin.php:731
+#, php-format
+msgid "Quota: %s"
+msgstr ""
+
+#: includes/class-lgv-admin.php:736
+#: includes/class-lgv-admin.php:1092
+#: includes/class-lgv-visual.php:104
+msgid "Target language"
+msgstr ""
+
+#: includes/class-lgv-admin.php:739
+msgid "— First non-default language —"
+msgstr ""
+
+#: includes/class-lgv-admin.php:745
+msgid "The source language is always the site default."
+msgstr ""
+
+#: includes/class-lgv-admin.php:749
+msgid "Save settings"
+msgstr ""
+
+#: includes/class-lgv-admin.php:752
+msgid "Translate pending"
+msgstr ""
+
+#: includes/class-lgv-admin.php:754
+msgid "Add at least one language besides the default in the Languages tab to use automatic translation."
+msgstr ""
+
+#: includes/class-lgv-admin.php:757
+#, php-format
+msgid "Target language: %1$s — %2$d pending strings."
+msgstr ""
+
+#: includes/class-lgv-admin.php:761
+msgid "Translate all pending"
+msgstr ""
+
+#: includes/class-lgv-admin.php:768
+msgid "Honest notes"
+msgstr ""
+
+#: includes/class-lgv-admin.php:770
+msgid "Texts are sent to the chosen provider's servers. If privacy is critical, translate by hand."
+msgstr ""
+
+#: includes/class-lgv-admin.php:771
+msgid "No engine understands brand context (show names, \"Comando\" as a brand). Manual review is not optional."
+msgstr ""
+
+#: includes/class-lgv-admin.php:772
+msgid "When the quota is reached, the process stops on its own and pending items wait for the next period. Nothing breaks mid-batch."
+msgstr ""
+
+#: includes/class-lgv-admin.php:773
+msgid "The visual mode also suggests translations with this provider (lgv_auto_translate filter)."
+msgstr ""
+
+#: includes/class-lgv-admin.php:789
+msgid "Discovered strings"
+msgstr ""
+
+#: includes/class-lgv-admin.php:790
+msgid "Strings are registered when you translate them with visual mode, when you add them here, when you import them via CSV or when the crawler discovers them."
+msgstr ""
+
+#: includes/class-lgv-admin.php:795
+msgid "Search strings…"
+msgstr ""
+
+#: includes/class-lgv-admin.php:796
+msgid "Search"
+msgstr ""
+
+#: includes/class-lgv-admin.php:797
+msgid "View all"
+msgstr ""
+
+#: includes/class-lgv-admin.php:797
+msgid "Only automatic"
+msgstr ""
+
+#: includes/class-lgv-admin.php:800
+msgid "Add string manually"
+msgstr ""
+
+#: includes/class-lgv-admin.php:805
+#: includes/class-lgv-visual.php:103
+msgid "Original text"
+msgstr ""
+
+#: includes/class-lgv-admin.php:819
+#: includes/class-lgv-visual.php:105
+msgid "Translation"
+msgstr ""
+
+#: includes/class-lgv-admin.php:821
+msgid "Optional: you can register just the original and translate later."
+msgstr ""
+
+#: includes/class-lgv-admin.php:824
+msgid "Save string"
+msgstr ""
+
+#: includes/class-lgv-admin.php:827
+#, php-format
+msgid "Dictionary (%d strings)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:830
+msgid "Original"
+msgstr ""
+
+#: includes/class-lgv-admin.php:857
+msgid "automatic"
+msgstr ""
+
+#: includes/class-lgv-admin.php:860
+msgid "Save"
+msgstr ""
+
+#: includes/class-lgv-admin.php:862
+msgid "✓ Reviewed"
+msgstr ""
+
+#: includes/class-lgv-admin.php:872
+msgid "Delete this string and its translations?"
+msgstr ""
+
+#: includes/class-lgv-admin.php:872
+msgid "Delete"
+msgstr ""
+
+#: includes/class-lgv-admin.php:878
+msgid "No strings yet. Use visual mode on the frontend to get started."
+msgstr ""
+
+#: includes/class-lgv-admin.php:892
+msgid "« Previous"
+msgstr ""
+
+#: includes/class-lgv-admin.php:893
+msgid "Next »"
+msgstr ""
+
+#: includes/class-lgv-admin.php:913
+msgid "Media translations saved."
+msgstr ""
+
+#: includes/class-lgv-admin.php:916
+msgid "Add at least one language besides the default in the Languages tab to translate media."
+msgstr ""
+
+#: includes/class-lgv-admin.php:920
+msgid "Translate alt text, title, caption and description of your media library per language. Values are stored in the dictionary, so the frontend output buffer translates them automatically."
+msgstr ""
+
+#: includes/class-lgv-admin.php:934
+#: includes/class-lgv-admin.php:1000
+msgid "Alt text"
+msgstr ""
+
+#: includes/class-lgv-admin.php:945
+msgid "Translate"
+msgstr ""
+
+#: includes/class-lgv-admin.php:977
+msgid "Invalid attachment."
+msgstr ""
+
+#: includes/class-lgv-admin.php:982
+#: includes/class-lgv-detect.php:624
+msgid "Back"
+msgstr ""
+
+#: includes/class-lgv-admin.php:991
+msgid "Field"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1001
+msgid "Title"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1002
+msgid "Caption"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1003
+msgid "Description"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1017
+msgid "Save media translations"
+msgstr ""
+
+#. translators: %1$d importadas, %2$d salteadas
+#: includes/class-lgv-admin.php:1034
+#, php-format
+msgid "Import done: %1$d rows imported, %2$d skipped."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1044
+msgid "Export"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1049
+msgid "All languages"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1054
+msgid "Download CSV"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1057
+msgid "Import"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1058
+msgid "The CSV needs the columns: lang, original, translation (context is optional). Languages must be registered first."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1063
+msgid "Import CSV"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1066
+msgid "XLIFF (professional translators)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1067
+msgid "Export translation jobs as XLIFF 1.2 for CAT tools (memoQ, Trados, OmegaT), then re-import the translated file."
+msgstr ""
+
+#. translators: 1: imported, 2: skipped, 3: language
+#: includes/class-lgv-admin.php:1079
+#, php-format
+msgid "XLIFF imported: %1$d translated, %2$d skipped (%3$s)."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1088
+msgid "Export XLIFF"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1100
+msgid "Only untranslated"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1101
+msgid "Download XLIFF"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1104
+#: includes/class-lgv-admin.php:1109
+msgid "Import XLIFF"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1119
+#: includes/class-lgv-admin.php:1130
+#: includes/class-lgv-admin.php:1146
+#: includes/class-lgv-admin.php:1171
+#: includes/class-lgv-admin.php:1190
+#: includes/class-lgv-autotranslate.php:816
+#: includes/class-lgv-discover.php:425
+#: includes/class-lgv-discover.php:445
+#: includes/class-lgv-visual.php:122
+#: includes/class-lgv-visual.php:165
+msgid "No permission."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1132
+#: includes/class-lgv-admin.php:1173
+msgid "No file was received."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1150
+#: includes/class-lgv-autotranslate.php:657
+msgid "Invalid target language."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1221
+#: includes/class-lgv-admin.php:1548
+#: includes/class-lgv-admin.php:1570
+msgid "Dropdown"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1221
+msgid "Button with the current language and a dropdown list."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1222
+#: includes/class-lgv-admin.php:1548
+#: includes/class-lgv-admin.php:1570
+msgid "Horizontal list"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1222
+msgid "All languages visible inline."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1223
+#: includes/class-lgv-admin.php:1548
+#: includes/class-lgv-admin.php:1570
+#: includes/class-lgv-switcher.php:266
+msgid "Flags only"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1223
+msgid "Only the flags, no text."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1224
+#: includes/class-lgv-admin.php:1548
+msgid "Text only"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1224
+msgid "Only the names, no flags."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1225
+#: includes/class-lgv-admin.php:1548
+msgid "Flag + text"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1225
+msgid "List with flag and name per language."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1226
+msgid "Opposite language"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1226
+msgid "A button that goes straight to the other language (only with 2 languages)."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1227
+#: includes/class-lgv-admin.php:1570
+msgid "Pill + dialog"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1227
+msgid "Globe + \"Language\" opening a selector (Airbnb style)."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1231
+msgid "Customize how the language switcher looks and behaves. Everything you change is previewed instantly above."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1233
+msgid "Live preview"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1235
+msgid "Desktop"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1236
+#: includes/class-lgv-admin.php:1505
+msgid "Mobile"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1239
+msgid "Loading preview…"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1245
+msgid "Display mode"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1256
+msgid "Flags"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1259
+msgid "Shape"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1263
+msgid "Rectangle"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1263
+msgid "Rounded"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1263
+msgid "Circle"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1271
+msgid "Size (px)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1275
+msgid "Flag position"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1279
+msgid "Before the text"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1279
+msgid "After the text"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1279
+msgid "Hidden"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1288
+msgid "Flag and label per language"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1289
+msgid "Choose which flag represents each language (e.g. UK or USA for English), upload your own SVG or write a custom label."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1293
+msgid "Current"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1294
+msgid "Variant"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1295
+msgid "Own SVG"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1296
+msgid "Custom label"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1320
+msgid "Custom SVG active."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1331
+#: includes/class-lgv-admin.php:1436
+msgid "Text"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1334
+msgid "Which text to show"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1338
+msgid "Native name (Español, English)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1338
+msgid "ISO code (ES, EN)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1338
+msgid "Nothing (flag only)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1343
+msgid "The \"Custom label\" in the table above takes priority over this format."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1347
+msgid "Tooltip"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1349
+msgid "Show the language name on hover (tooltip)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1350
+msgid "The text is shown in the site's active language: if the site is in English, the Spanish flag reads \"Spanish\"."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1355
+msgid "Behavior"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1358
+msgid "Dropdown opening"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1360
+msgid "On click"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1361
+msgid "On hover"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1365
+msgid "Opening direction"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1367
+msgid "Down"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1368
+msgid "Up"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1372
+msgid "Animation"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1376
+msgid "Fade"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1376
+msgid "Slide"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1376
+msgid "No animation"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1384
+msgid "Visibility"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1386
+msgid "Show the current language inside the list"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1387
+msgid "Hide the current language from the list (only the others)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1388
+msgid "Show the default language in the switcher"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1389
+msgid "Hide languages with no translations loaded"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1390
+msgid "Close when clicking outside"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1394
+msgid "Language order"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1396
+msgid "Manual (drag)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1397
+msgid "Alphabetical by native name"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1404
+msgid "Drag"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1415
+msgid "Search box"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1417
+msgid "Show a search box inside the dropdown/dialog"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1418
+msgid "From how many languages:"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1424
+msgid "Style"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1425
+msgid "One-click presets"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1434
+msgid "Background"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1435
+msgid "Background (hover)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1437
+msgid "Text (hover)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1438
+msgid "Border"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1448
+msgid "Border width (px)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1452
+msgid "Border radius (px)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1456
+msgid "Padding (px)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1458
+msgid "Vertical"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1459
+msgid "Horizontal"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1463
+msgid "Font size (px)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1467
+msgid "Font weight"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1479
+msgid "Typography"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1483
+msgid "System"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1483
+msgid "Serif"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1483
+msgid "Monospaced"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1483
+msgid "Inherit from theme"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1491
+msgid "Shadow"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1492
+msgid "Soft shadow (elevation)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1495
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1497
+msgid "It's printed after the generated styles. You can use the --lgv-bg, --lgv-text, etc. variables."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1500
+msgid "Performance"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1501
+msgid "Don't load the switcher CSS/JS (to style it 100% by hand)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1508
+msgid "Enable mobile settings"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1509
+msgid "Yes"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1512
+msgid "Breakpoint (px)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1514
+msgid "Below this width the mobile settings apply."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1517
+msgid "Mobile mode"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1519
+msgid "Same as desktop"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1520
+msgid "Flags only (compact)"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1521
+msgid "Full-screen drawer"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1522
+msgid "The drawer turns the dropdown and the dialog into a full-screen panel, ideal with many languages."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1527
+msgid "Location"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1530
+msgid "Menu item"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1533
+msgid "— Don't add —"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1540
+msgid "Adds the switcher as the last item of the chosen menu."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1544
+msgid "Menu mode"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1556
+msgid "Floating button"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1558
+msgid "Show a floating button fixed on screen"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1559
+msgid "Position:"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1562
+msgid "Bottom right"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1562
+msgid "Bottom left"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1562
+msgid "Top right"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1562
+msgid "Top left"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1567
+msgid "Mode:"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1579
+msgid "Accessibility"
+msgstr ""
+
+#: includes/class-lgv-admin.php:1581
+msgid "The dropdown uses ARIA listbox/option with aria-expanded and can be operated with Tab, arrows, Enter and Escape."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1582
+msgid "The modal dialog is a dialog with aria-modal, managed focus and closing with Escape or backdrop click."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1583
+msgid "Flags are decorative (aria-hidden); each option carries hreflang and the current language is marked with aria-current."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1584
+msgid "Tip: flags represent countries, not languages. If your audience is broad, prefer showing the language name too."
+msgstr ""
+
+#: includes/class-lgv-admin.php:1587
+msgid "Save switcher settings"
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:90
+msgid "MyMemory (free, no key)"
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:146
+msgid "MyMemory returned an unexpected response."
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:152
+msgid "MyMemory: daily quota exhausted. Try tomorrow or add an email in the settings."
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:156
+#, php-format
+msgid "MyMemory: %s"
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:221
+msgid "DeepL (free key)"
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:253
+msgid "DeepL: API key missing. Paste it in the settings."
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:280
+msgid "DeepL: monthly quota exhausted (500K characters)."
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:285
+msgid "DeepL: invalid API key (403)."
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:288
+#, php-format
+msgid "DeepL: HTTP error %d."
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:315
+msgid "Google (experimental, unofficial)"
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:370
+#, php-format
+msgid "Google: HTTP %d (throttled or down)."
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:374
+msgid "Google: unexpected response."
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:663
+msgid "Unknown provider."
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:669
+msgid "This provider needs an API key. Paste it in the settings."
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:684
+msgid "Provider quota exhausted for this period."
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:736
+msgid "… → untranslated."
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:851
+#, php-format
+msgid "%s characters used (unknown limit)"
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:853
+msgid "today"
+msgstr ""
+
+#: includes/class-lgv-autotranslate.php:853
+msgid "this month"
+msgstr ""
+
+#. translators: %1$s usados, %2$s límite, %3$s período
+#: includes/class-lgv-autotranslate.php:856
+#, php-format
+msgid "%1$s / %2$s characters %3$s"
+msgstr ""
+
+#. translators: %s: método (navegador+IP, navegador, IP).
+#: includes/class-lgv-detect.php:469
+#, php-format
+msgid "Method: %s."
+msgstr ""
+
+#: includes/class-lgv-detect.php:470
+msgid "browser + IP (recommended)"
+msgstr ""
+
+#: includes/class-lgv-detect.php:470
+msgid "browser only"
+msgstr ""
+
+#: includes/class-lgv-detect.php:470
+msgid "IP only"
+msgstr ""
+
+#: includes/class-lgv-detect.php:474
+msgid "Browser: no languages in the header."
+msgstr ""
+
+#. translators: %s: lista de idiomas.
+#: includes/class-lgv-detect.php:476
+#, php-format
+msgid "Browser: %s."
+msgstr ""
+
+#. translators: 1: país, 2: lista de idiomas.
+#: includes/class-lgv-detect.php:481
+#, php-format
+msgid "IP → country %1$s (%2$s) → likely languages: %3$s."
+msgstr ""
+
+#: includes/class-lgv-detect.php:482
+msgid "IP → invalid or unknown country."
+msgstr ""
+
+#. translators: %s: lista de idiomas activos.
+#: includes/class-lgv-detect.php:485
+#, php-format
+msgid "Site active languages: %s."
+msgstr ""
+
+#. translators: %s: idioma.
+#: includes/class-lgv-detect.php:489
+#, php-format
+msgid "No matches → fallback language: %s."
+msgstr ""
+
+#. translators: %s: idioma.
+#: includes/class-lgv-detect.php:495
+#, php-format
+msgid "Match → winning language: %s."
+msgstr ""
+
+#. translators: %s: nombre del idioma.
+#: includes/class-lgv-detect.php:620
+#, php-format
+msgid "We switched you to %s based on your location."
+msgstr ""
+
+#: includes/class-lgv-detect.php:626
+#: includes/class-lgv-switcher.php:825
+msgid "Close"
+msgstr ""
+
+#: includes/class-lgv-discover.php:104
+msgid "The sitemap returned no URLs."
+msgstr ""
+
+#: includes/class-lgv-discover.php:127
+#, php-format
+msgid "HTTP %d reading %s"
+msgstr ""
+
+#: includes/class-lgv-discover.php:131
+msgid "Empty response."
+msgstr ""
+
+#: includes/class-lgv-discover.php:138
+msgid "Could not parse the XML."
+msgstr ""
+
+#: includes/class-lgv-discover.php:167
+msgid "sitemap.xml"
+msgstr ""
+
+#: includes/class-lgv-discover.php:167
+msgid "manual list"
+msgstr ""
+
+#: includes/class-lgv-discover.php:210
+msgid "No valid URLs from this site in the list."
+msgstr ""
+
+#: includes/class-lgv-discover.php:278
+#, php-format
+msgid "HTTP %d"
+msgstr ""
+
+#: includes/class-lgv-discover.php:282
+msgid "Not HTML."
+msgstr ""
+
+#: includes/class-lgv-discover.php:286
+msgid "Empty HTML."
+msgstr ""
+
+#: includes/class-lgv-discover.php:330
+msgid "Could not parse the HTML."
+msgstr ""
+
+#: includes/class-lgv-frontend.php:475
+msgid "Language Switcher (Lingua Visual)"
+msgstr ""
+
+#: includes/class-lgv-frontend.php:476
+msgid "Displays the Lingua Visual language switcher."
+msgstr ""
+
+#: includes/class-lgv-frontend.php:501
+msgid "Title:"
+msgstr ""
+
+#: includes/class-lgv-languages.php:54
+msgid "The language code and name are required."
+msgstr ""
+
+#: includes/class-lgv-languages.php:74
+msgid "You can't remove the default language. Change it first."
+msgstr ""
+
+#: includes/class-lgv-languages.php:78
+#: includes/class-lgv-languages.php:115
+msgid "That language does not exist."
+msgstr ""
+
+#: includes/class-lgv-strings.php:279
+msgid "Could not open the file."
+msgstr ""
+
+#: includes/class-lgv-strings.php:284
+msgid "The CSV is empty."
+msgstr ""
+
+#: includes/class-lgv-strings.php:299
+msgid "The CSV needs the columns: lang, original, translation."
+msgstr ""
+
+#. translators: %1$d línea, %2$s código de idioma
+#: includes/class-lgv-strings.php:317
+#, php-format
+msgid "Line %1$d: language \"%2$s\" is not registered, skipped."
+msgstr ""
+
+#: includes/class-lgv-switcher.php:234
+msgid "Minimalist"
+msgstr ""
+
+#: includes/class-lgv-switcher.php:242
+msgid "Pill"
+msgstr ""
+
+#: includes/class-lgv-switcher.php:250
+msgid "Dark"
+msgstr ""
+
+#: includes/class-lgv-switcher.php:258
+msgid "Corporate blue"
+msgstr ""
+
+#: includes/class-lgv-switcher.php:273
+msgid "Editorial underline"
+msgstr ""
+
+#: includes/class-lgv-switcher.php:714
+msgid "Search language…"
+msgstr ""
+
+#: includes/class-lgv-switcher.php:715
+msgid "Search language"
+msgstr ""
+
+#: includes/class-lgv-switcher.php:752
+msgid "Available languages"
+msgstr ""
+
+#: includes/class-lgv-switcher.php:797
+#, php-format
+msgid "Switch to %s"
+msgstr ""
+
+#: includes/class-lgv-switcher.php:823
+msgid "Choose language"
+msgstr ""
+
+#: includes/class-lgv-switcher.php:824
+msgid "Choose your language"
+msgstr ""
+
+#: includes/class-lgv-visual.php:49
+msgid "✕ Exit translation mode"
+msgstr ""
+
+#: includes/class-lgv-visual.php:59
+msgid "🌐 Translate this page"
+msgstr ""
+
+#: includes/class-lgv-visual.php:102
+msgid "Translate text"
+msgstr ""
+
+#: includes/class-lgv-visual.php:106
+msgid "Save translation"
+msgstr ""
+
+#: includes/class-lgv-visual.php:107
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-lgv-visual.php:108
+msgid "Translation saved!"
+msgstr ""
+
+#: includes/class-lgv-visual.php:109
+msgid "Could not save. Try again."
+msgstr ""
+
+#: includes/class-lgv-visual.php:110
+msgid "Click any text on the page to translate it. You can also select a snippet and click it."
+msgstr ""
+
+#: includes/class-lgv-visual.php:133
+msgid "Missing data: original, language and translation are required."
+msgstr ""
+
+#: includes/class-lgv-visual.php:136
+msgid "That language is not registered."
+msgstr ""
+
+#: includes/class-lgv-visual.php:139
+msgid "The original text is too long (max. 2000 characters)."
+msgstr ""
+
+#: includes/class-lgv-visual.php:143
+msgid "Could not save to the database."
+msgstr ""
+
+#: includes/class-lgv-xliff.php:115
+msgid "Could not parse the XLIFF file."
+msgstr ""
+
+#: includes/class-lgv-xliff.php:124
+msgid "No <file> element found in the XLIFF."
+msgstr ""
+
+#. translators: %s: language code
+#: includes/class-lgv-xliff.php:151
+#, php-format
+msgid "Target language \"%s\" is not registered. Register it first."
+msgstr ""
